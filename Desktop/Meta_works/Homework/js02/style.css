@@ -1,0 +1,96 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.container 
+{
+    text-transform: uppercase;
+    width: 1200px;
+    height: 600px;
+    background-color: teal;
+    color: white;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+}
+
+select, input
+{
+    display: block;
+    width: 350px;
+    height: 50px;
+    border: 2px solid blue;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-family: cursive;
+    margin: 20px 15px ;
+    text-transform: uppercase;
+}
+
+.tugma 
+{
+    width: 300px;
+    height: 80px;
+    background-color: greenyellow;
+    color: indigo;
+    font-family: cursive;
+    font-size: 20px;
+    border-radius: 10px;
+    margin: 20px 15px;
+}
+
+.natija 
+{
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    width: 500px;
+    height: 150px;
+    background-color: white;
+    border-radius: 15px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: black;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.natija h1 
+{
+    height: 100%;
+    line-height: 150px;
+}
+
+.natija h1:first-child 
+{
+    border-right: 3px solid black;
+}
+
+/* .natija h1:nth-child(2) 
+{
+    transform: translateX(20px);
+}
+.natija h1:nth-child(3) 
+{
+    transform: translateX(30px);
+} */
+
+.narx 
+{
+    position: absolute;
+    top: 250px;
+    right: 150px;
+    background-color: white;
+    border: 3px solid black;
+    width: 300px;
+    height: 100px;
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    font-family: cursive;
+    line-height: 100px;
+}
